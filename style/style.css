@@ -241,7 +241,7 @@ header a:hover::after{
 
 .section4{
     width: 100%;
-    height: auto; 
+    height: 90%; 
     padding: 3% 10%;
 }
 
@@ -256,7 +256,7 @@ header a:hover::after{
 
 .section4 .section4-title h1{
     color: rgb(225, 164, 51);
-    font-size: 50px;
+    font-size: 41px;
 }
 
 .section4-info{
@@ -270,16 +270,17 @@ header a:hover::after{
 
 .section4-info li{
     color: rgb(105, 105, 105);
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
-    line-height: 60px;
+    line-height: 50px;
 }
 
 .section5{
     width: 100%;
-    height: auto;
+    height: 90%;
     background-color: rgb(239, 239, 239);
     padding: 3% 10%;
+    overflow: hidden;
 }
 
 .section5-title{
@@ -293,7 +294,7 @@ header a:hover::after{
 
 .section5 .section5-title h1{
     color: rgb(225, 164, 51);
-    font-size: 50px;
+    font-size: 41px;
 }
 
 .section5-info{
@@ -310,6 +311,10 @@ header a:hover::after{
 
 .section5 th{
     color: #6da4fd;
+}
+
+.section5 tr{
+    font-size: 27px;
 }
 
 .section5-info table{
